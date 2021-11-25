@@ -1,3 +1,5 @@
 .idea/
 venv/
 password_generator/__pycache__/
+generator/__pycache__/
+generator/migrations/__pycache__/
