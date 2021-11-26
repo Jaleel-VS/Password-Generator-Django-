@@ -19,6 +19,7 @@ from generator import views
 
 urlpatterns = [
     # path('hello/', admin.site.urls),
-    path('', views.home),
-    path('eggs/', views.eggs),
+    path('', views.home, name='home'),
+    path('password/', views.password, name='password'),
+    path('about/', views.about, name='about'),
 ]
